@@ -1,4 +1,4 @@
-// Mensagem de boas-vindas
+// Mensagem de boas-vindaS
 window.addEventListener("load", () => {
     console.log("Site AGRINHO 2026 carregado com sucesso!");
 });
