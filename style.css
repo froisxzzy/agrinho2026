@@ -162,5 +162,22 @@ footer{
     section{
         padding: 20px;
     }
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
+.galeria img {
+    width: 450px;
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.galeria img:hover {
+    transform: scale(1.03);
+}
 }
